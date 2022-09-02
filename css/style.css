@@ -1,0 +1,334 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: block;
+    
+}
+#container-top{
+    background-color: #06242e;
+    height: 100px;
+    width: 100%;
+}
+
+.menu{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.nomeInstituicao{
+    color: #fff;
+    font-size: 13px;
+    flex-direction: column;
+}
+.nomeCentro{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-right: 3%;
+    margin-top: -30px;
+    align-items: center;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: -10px; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.redes-instagram img{
+    width: 30px;
+    height:30px;
+    margin-left: 6px;
+}
+.redes-instagram img:hover{
+    width: 35px;
+    height:35px;
+    margin-left: 6px;
+    margin-top: -5px;
+}
+.redes-twitter img{
+    width: 40px;
+    height:40px;
+}
+.redes-twitter img:hover{
+    width: 45px;
+    height:45px;
+    margin-top: -5px;
+}
+.redes-facebook img{
+    width: 29px;
+    height:29px;
+}
+.redes-facebook img:hover{
+    width: 34px;
+    height:34px;
+    margin-top: -5px;
+}
+
+.menu2{
+    background-color: #01d1ff;
+    height: 30px;
+}
+
+.segundoMenu{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.segundoMenu ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    align-items: center;
+
+}
+.segundoMenu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.segundoMenu ul li a:hover{
+    color: black;
+}
+.nada::after{
+    content: "   |";
+    color: #fff;
+    margin-right: 10px;
+}
+#container-bottom{
+    background-color: #06242e;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    margin-top: 5vw;
+}
+#meuGit{
+    display: flex;
+    background-color: #01d1ff;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+#meuGit img{
+    width: 50px;
+    height: 50px;
+}
+.footer-color{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 4px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 70%;
+    height: 100%;
+
+
+}
+.hr{
+    border: 1px solid black;
+}
+.menuL{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.menuL p{
+    background-color: rgba(128, 128, 128, 0.274);
+    padding-top: 10px;
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.menuL ul{
+    
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+}
+.menuL ul li{
+    display: flex;
+    border-top: 1px solid black;
+    text-align: center;
+    justify-content: center;
+}
+.menuL ul li:hover{
+    background-color: #01d1ff;
+}
+
+.menuL ul li a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttons{
+    background-color: white;
+}
+
+.textoLi{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 20%;
+}
+
+.p1{
+    width: 99%;
+    height: 100%;
+    display: flex;
+    background-color: #35457E;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+
+}
+.centralizarpag{
+    top: 0;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+#lateral{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 13%;
+    top: 0;
+    align-self: stretch;
+}
+.curricular{
+    width: 54%;
+    margin-left: 1%;
+}
+.primeiroP{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.primeiroP li{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: black;
+    list-style: none;
+}
+.primeiroP h5{
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 10pt;
+    color: #777;
+}
+.primeiroP div div{
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.primeiroP small{
+    margin: 0 0 9.5px;
+    cursor: pointer;
+    font-size: 10pt;
+}
+.ppequeno{
+    font-size: 9pt;
+}
+.bold{
+    font-weight: bold;
+}
+#padrao{
+    padding: 10px;
+    margin: 5px 5px;
+    border: 1px solid #777;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-radius: 3px;
+    background-color: white;
+    display: inline-block;
+    width: 15vw;
+}
+
+.vaiprotop{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.mapa img{
+    width: 80%;
+    height: 80%;
+}
+.desce{
+    margin-top: 4vh;
+}
+
+.diretor{
+    background: #eee;
+    padding: 1em;
+    border-left: 1em solid #ccc;
+    margin-top: 10px;
+}
+p{
+    line-height: 20px;
+
+    text-align: justify;
+}
+
+.matrizcurricular a{
+    color: blue;
+}
