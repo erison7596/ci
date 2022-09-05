@@ -1,3 +1,4 @@
+//parte do pre-requisito
 let primeiro;
 var troca = 0;
 var nome;
@@ -14,4 +15,20 @@ function preRequisito(e){
     troca = 1;
     nome = primeiro;
 
+}
+
+//parte do slide
+let count = 1;
+document.getElementById("radio1").checked = true;
+setInterval( function(){
+    nextImage()
+}, 5000)
+
+
+function nextImage(){
+    count++;
+    if(count>4){
+        count=1;
+    }
+    document.getElementById("radio"+count).checked = true;
 }
